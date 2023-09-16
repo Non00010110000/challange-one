@@ -1,7 +1,6 @@
 {
-  "name": "challange-1",
+  "name": "challange-one",
   "version": "0.1.0",
-  "homepage": "https://Non00010110000.github.io/challange-one",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
