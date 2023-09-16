@@ -1,0 +1,197 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Roboto&family=Roboto+Mono&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100vh;
+  background-color: #36384d;
+  color: #26283d;
+  font-family: "Roboto Mono",monospace;
+  font-weight: 700;
+  min-height: 100vh;
+}
+.sign-up{
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+background-color: #ffffff;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: initial;
+  margin: 20px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+  font-weight: 1000;
+}
+
+.header p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+form input {
+  margin-bottom: 30px;
+  padding: 20px 90px;
+  border-radius: 5px;
+  border: 1px solid #c8c8c8;
+  font-size: 15px;
+  text-align: left  ;
+}
+
+form button {
+  padding: 20px 100px;
+}
+img{ 
+  width: 15rem;
+  height: 28rem;
+  border-radius: 5px;margin: 10px;
+}
+.circle{
+  color: #f8645a;
+}
+.link{
+  background-color: #26283d;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 2rem;
+  text-decoration: none;
+}
+.link:hover{
+  background-image: linear-gradient(to right, #ff5476, #ff6742);
+  cursor: pointer;
+}
+label{
+  font-size: 10px;
+  text-align: left;
+}
+
+
+
+/* mobile */
+
+/* Media query for 800px viewport width and below */
+@media (max-width: 800px) {
+  body {
+    /* Adjust styles for body at 800px viewport width and below */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sign-up {
+    /* Adjust styles for .sign-up container at 800px viewport width and below */
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 5px 5px;
+    margin: 0px;
+  } 
+
+  /* Add other styles specific for 800px and below */
+}
+
+@media (max-width : 650px){
+  .header{
+    font-size: 10px;
+    word-wrap: normal;
+    height: auto;
+  }
+  form input {
+    padding: 20px 40px;
+  }
+  form button { 
+    padding: 20px 20px;
+  }
+  form button :hover{
+    background-image: linear-gradient(to right, #ff5476, #ff6742);
+    cursor: pointer;
+  }
+}
+
+.center-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 220px;
+  flex-direction: column;
+  background-color: #ffff;
+  font-size: 9px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  background-color: #ffffff;  
+  padding: 2em;
+  font-weight: 1000;
+}
+.center-container h1 {
+  
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+
+.bla{
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  background-color: #ffffff;
+  border: none;
+  padding: 6px;
+  background-color: #26283d;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sub {
+  margin-bottom: 10px;
+  color: #f8645a;
+font-size: 2rem;
+}
+.bla:hover {
+  background-image: linear-gradient(to right, #ff5476, #ff6742);
+  cursor: pointer;
+}
